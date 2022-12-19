@@ -32,7 +32,7 @@ p.blueberry {color: purple;}
 	padding-left: 80px;
 	margin: 30px;
 	margin-right: 250px;
-	background-image: url(images/background.gif);
+	background-image: url(../images/background.gif);
 	background-position: top left;
 	background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@ p.blueberry {color: purple;}
 	padding-left: 20px;
 	margin-left: 20px;
 	text-align: center;
-	background-image: url(images/cocktail.gif);
+	background-image: url(../images/cocktail.gif);
 	background-repeat: repeat-x;
 	line-height: 1;
 	float: right;

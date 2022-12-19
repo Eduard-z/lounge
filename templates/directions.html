@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Head First Lounge Directions</title>
-    <link rel="stylesheet" type="text/css" href="../lounge.css"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/lounge.css')}}"/>
   </head>
   <body>
     <h1>Directions</h1>
@@ -15,7 +15,7 @@
     <p>Continue on Structure Ave S - go 0.2 mi</p>
     <p>Turn right at SW Presentation Way - go 0.0 mi</p>
     <p>
-      <a href="../lounge.html">Назад в гостевую</a>
+      <a href="{{url_for('index')}}">Назад в гостевую</a>
     </p>
   </body>
 </html>
